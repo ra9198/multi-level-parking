@@ -1,0 +1,62 @@
+{
+  "reviewedCommit": "aa4b73016f271a7e0778c6c8bbd6c17346f52346",
+  "recordedAt": "2026-10-31T10:21:25.003158+00:00",
+  "checks": [
+    {
+      "name": "unit",
+      "command": "npm test -- --reporter=json --outputFile=docs/project-report/source/unit-results.json",
+      "exitCode": 0,
+      "status": "passed"
+    },
+    {
+      "name": "lint",
+      "command": "npm run lint",
+      "exitCode": 0,
+      "status": "passed"
+    },
+    {
+      "name": "typecheck",
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "status": "passed"
+    },
+    {
+      "name": "build",
+      "command": "npm run build",
+      "exitCode": 0,
+      "status": "passed"
+    }
+  ],
+  "existingUnitTests": {
+    "total": 9,
+    "passed": 9,
+    "failed": 0
+  },
+  "existingBrowserScenarios": {
+    "passed": 2,
+    "failed": 1,
+    "skipped": 0,
+    "mode": "Unchanged existing scenario definitions against the local production build; environment-specific Chromium launcher",
+    "openFailure": "Added/expanded location selector returned riverside after reload"
+  },
+  "supplementalBrowserAssertions": {
+    "passed": 15,
+    "failed": 1,
+    "mode": "Separate documentation capture utility; process completion does not imply all assertions passed",
+    "openFailure": "390-pixel viewport with 457-pixel document width"
+  },
+  "applicationBehaviorChanged": false,
+  "sourceSha256": {
+    "package.json": "eeb521d1f1e980c9a43c4e7486154cada364d625d2b685409accc3c8e9ff5e56",
+    "package-lock.json": "a04b59f2ff2529d40438630d6ded8f0caf762f568d0c415d901db8f17d76c695",
+    "src/types/parking.ts": "66315c0a7ed647f488b077441619c1d1cbe4a0a4d8329055d4fd70dd8131e1a9",
+    "src/lib/parking.ts": "78fa8c0f063379a4be7ffe9a9ff8f73a8c1ee1ddc30134a6c696a31073df092d",
+    "src/lib/parking-data.ts": "81e357a31d4ad4261ed6d7a3610f1b91339c29c1b7a6e3db1a7ee0b29e9f8caa",
+    "src/lib/parking.test.ts": "b45b7210311e5b72935e0eed359aa099b50516398efcc4a914eef2ec7bf23efc",
+    "src/components/parking-dashboard.tsx": "82592907034c52c2172be1c9ab8ea5aa3300c45a24aac563eef044879b589314",
+    "src/app/page.tsx": "a19bbe2bda620cdf594ac789b813fc6420f70eeb50a0a66fc753781e681219e6",
+    "src/app/layout.tsx": "9c84cfc2fab7b903d560f2fb4fb7211ca7bea25ad6be09717ae2077b77916d83",
+    "src/app/globals.css": "a63ccd3d504518352e5a1d4d754df72a3652bcfa5aa3778640d4fadb610c195a",
+    "e2e/parking-workflows.spec.ts": "8ee1e69a61fc6567d5c7e8b3c0bd5afa061233d8a277afa113998a205cd79e3a"
+  }
+}

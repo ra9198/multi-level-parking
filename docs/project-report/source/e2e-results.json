@@ -1,0 +1,288 @@
+{
+  "config": {
+    "argv": [
+      "/usr/local/bin/node",
+      "/home/user/multi-level-parking/node_modules/.bin/playwright",
+      "test",
+      "--config=/home/user/doc-browser/playwright-report.config.mjs"
+    ],
+    "configFile": "/home/user/doc-browser/playwright-report.config.mjs",
+    "rootDir": "/home/user/multi-level-parking/e2e",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 3
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/home/user/multi-level-parking/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/home/user/multi-level-parking/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "filteredProjects": [
+      {
+        "grep": {},
+        "grepInvert": null,
+        "outputDir": "/home/user/multi-level-parking/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 3
+        },
+        "name": "chromium",
+        "testDir": "/home/user/multi-level-parking/e2e",
+        "snapshotDir": "/home/user/multi-level-parking/e2e",
+        "testIgnore": [],
+        "testMatch": "**/*.@(spec|test).?(c|m)[jt]s?(x)",
+        "timeout": 30000,
+        "use": {
+          "baseURL": "http://127.0.0.1:3000",
+          "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.8078.4 Safari/537.36",
+          "viewport": {
+            "width": 1280,
+            "height": 720
+          },
+          "screen": {
+            "width": 1920,
+            "height": 1080
+          },
+          "deviceScaleFactor": 1,
+          "isMobile": false,
+          "hasTouch": false,
+          "defaultBrowserType": "chromium",
+          "launchOptions": {
+            "executablePath": "/tmp/chromium",
+            "args": [
+              "--ash-no-nudges",
+              "--disable-domain-reliability",
+              "--disable-print-preview",
+              "--disk-cache-size=33554432",
+              "--no-default-browser-check",
+              "--no-pings",
+              "--single-process",
+              "--font-render-hinting=none",
+              "--disable-features=AudioServiceOutOfProcess,IsolateOrigins,site-per-process",
+              "--enable-features=SharedArrayBuffer",
+              "--ignore-gpu-blocklist",
+              "--in-process-gpu",
+              "--use-gl=angle",
+              "--use-angle=swiftshader",
+              "--enable-unsafe-swiftshader",
+              "--allow-running-insecure-content",
+              "--disable-setuid-sandbox",
+              "--disable-site-isolation-trials",
+              "--disable-web-security",
+              "--headless='shell'",
+              "--no-sandbox",
+              "--no-zygote"
+            ]
+          },
+          "trace": "retain-on-failure"
+        },
+        "dependencies": [],
+        "ignoreSnapshots": false,
+        "__projectId": "chromium"
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "/home/user/multi-level-parking/docs/project-report/source/e2e-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "default",
+    "updateSourceMethod": "patch",
+    "version": "1.64.1",
+    "workers": 3,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "parking-workflows.spec.ts",
+      "file": "parking-workflows.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "switches between the configured garage locations",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 5926,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:56:54.140Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19014c762d8152319e73-45647ab874b0c5961bd3",
+          "file": "parking-workflows.spec.ts",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "adds a location, edits floor capacity, and persists the plan",
+          "ok": false,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "failed",
+                  "duration": 13660,
+                  "error": {
+                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('combobox', { name: 'Garage location' })\nExpected pattern: \u001b[32m/location-/\u001b[39m\nReceived string:  \u001b[31m\"riverside\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('combobox', { name: 'Garage location' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('combobox', { name: 'Garage location' })\u001b[22m\n\u001b[2m    - locator resolved to <select aria-label=\"Garage location\">…</select>\u001b[22m\n\u001b[2m    - unexpected value \"riverside\"\u001b[22m\n",
+                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('combobox', { name: 'Garage location' })\nExpected pattern: \u001b[32m/location-/\u001b[39m\nReceived string:  \u001b[31m\"riverside\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('combobox', { name: 'Garage location' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('combobox', { name: 'Garage location' })\u001b[22m\n\u001b[2m    - locator resolved to <select aria-label=\"Garage location\">…</select>\u001b[22m\n\u001b[2m    - unexpected value \"riverside\"\u001b[22m\n\n    at /home/user/multi-level-parking/e2e/parking-workflows.spec.ts:32:73",
+                    "location": {
+                      "file": "/home/user/multi-level-parking/e2e/parking-workflows.spec.ts",
+                      "column": 73,
+                      "line": 32
+                    },
+                    "snippet": "  30 |\n  31 |   await page.reload();\n> 32 |   await expect(page.getByRole(\"combobox\", { name: \"Garage location\" })).toHaveValue(/location-/);\n     |                                                                         ^\n  33 |   await page.getByRole(\"button\", { name: \"Plan capacity\" }).click();\n  34 |   await expect(page.getByLabel(\"Ground floor capacity\")).toHaveValue(\"18\");\n  35 | });"
+                  },
+                  "errors": [
+                    {
+                      "location": {
+                        "file": "/home/user/multi-level-parking/e2e/parking-workflows.spec.ts",
+                        "column": 73,
+                        "line": 32
+                      },
+                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveValue\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nLocator: getByRole('combobox', { name: 'Garage location' })\nExpected pattern: \u001b[32m/location-/\u001b[39m\nReceived string:  \u001b[31m\"riverside\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveValue\" getByRole('combobox', { name: 'Garage location' }) with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for getByRole('combobox', { name: 'Garage location' })\u001b[22m\n\u001b[2m    - locator resolved to <select aria-label=\"Garage location\">…</select>\u001b[22m\n\u001b[2m    - unexpected value \"riverside\"\u001b[22m\n\n\n  30 |\n  31 |   await page.reload();\n> 32 |   await expect(page.getByRole(\"combobox\", { name: \"Garage location\" })).toHaveValue(/location-/);\n     |                                                                         ^\n  33 |   await page.getByRole(\"button\", { name: \"Plan capacity\" }).click();\n  34 |   await expect(page.getByLabel(\"Ground floor capacity\")).toHaveValue(\"18\");\n  35 | });\n    at /home/user/multi-level-parking/e2e/parking-workflows.spec.ts:32:73"
+                    }
+                  ],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:56:53.990Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "error-context",
+                      "contentType": "text/markdown",
+                      "path": "/home/user/multi-level-parking/test-results/parking-workflows-adds-a-l-ae5c2-acity-and-persists-the-plan-chromium/error-context.md"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "/home/user/multi-level-parking/test-results/parking-workflows-adds-a-l-ae5c2-acity-and-persists-the-plan-chromium/trace.zip"
+                    }
+                  ],
+                  "errorLocation": {
+                    "file": "/home/user/multi-level-parking/e2e/parking-workflows.spec.ts",
+                    "column": 73,
+                    "line": 32
+                  }
+                }
+              ],
+              "status": "unexpected"
+            }
+          ],
+          "id": "19014c762d8152319e73-916644d4f9cc221f83b5",
+          "file": "parking-workflows.spec.ts",
+          "line": 15,
+          "column": 5
+        },
+        {
+          "title": "operator checks a vehicle in and back out",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "parallelIndex": 2,
+                  "status": "passed",
+                  "duration": 6958,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-10-31T09:56:54.240Z",
+                  "annotations": [],
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "19014c762d8152319e73-324d34f8dca61407e5ce",
+          "file": "parking-workflows.spec.ts",
+          "line": 37,
+          "column": 5
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-10-31T09:56:52.493Z",
+    "duration": 16096.832999999999,
+    "expected": 2,
+    "skipped": 0,
+    "unexpected": 1,
+    "flaky": 0
+  }
+}
