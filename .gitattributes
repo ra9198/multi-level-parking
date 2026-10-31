@@ -1,0 +1,7 @@
+# Preserve generated documents and bundled fonts as binary artifacts.
+*.pdf binary
+*.docx binary
+*.ttf binary
+
+# Keep third-party font licence notices in their original formatting.
+docs/project-report/assets/fonts/LICENSE_* -whitespace

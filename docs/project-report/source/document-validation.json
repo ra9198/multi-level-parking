@@ -1,0 +1,688 @@
+{
+  "title": "PARKLINE: MULTI-LEVEL PARKING OPERATIONS AND CAPACITY PLANNING SYSTEM",
+  "reviewedCommit": "aa4b73016f271a7e0778c6c8bbd6c17346f52346",
+  "pdfPages": 111,
+  "frontMatterPages": 13,
+  "mainAndAppendixPages": 98,
+  "figureCount": 19,
+  "tableCount": 49,
+  "sourceWordLikeTokens": 30059,
+  "pdfExtractedWords": 30901,
+  "minimumRequestedPages": 90,
+  "pageCountVerified": true,
+  "outOfPageTextSpans": [],
+  "wordPagination": "Editable document with explicit page starts and embedded fonts; PDF is pagination authority.",
+  "layout": [
+    {
+      "id": "cover",
+      "usedHeight": 0
+    },
+    {
+      "id": "certificate",
+      "number": "ii",
+      "usedHeight": 499.0,
+      "freeHeight": 198.89
+    },
+    {
+      "id": "declaration",
+      "number": "iii",
+      "usedHeight": 490.0,
+      "freeHeight": 207.89
+    },
+    {
+      "id": "acknowledgement",
+      "number": "iv",
+      "usedHeight": 430.0,
+      "freeHeight": 267.89
+    },
+    {
+      "id": "abstract",
+      "number": "v",
+      "usedHeight": 619.0,
+      "freeHeight": 78.89
+    },
+    {
+      "id": "contents-1",
+      "number": "vi",
+      "usedHeight": 687.5,
+      "freeHeight": 10.39
+    },
+    {
+      "id": "contents-2",
+      "number": "vii",
+      "usedHeight": 681.4,
+      "freeHeight": 16.49
+    },
+    {
+      "id": "contents-3",
+      "number": "viii",
+      "usedHeight": 681.4,
+      "freeHeight": 16.49
+    },
+    {
+      "id": "contents-4",
+      "number": "ix",
+      "usedHeight": 562.4,
+      "freeHeight": 135.49
+    },
+    {
+      "id": "figures-1",
+      "number": "x",
+      "usedHeight": 412.0,
+      "freeHeight": 285.89
+    },
+    {
+      "id": "tables-1",
+      "number": "xi",
+      "usedHeight": 685.6,
+      "freeHeight": 12.29
+    },
+    {
+      "id": "tables-2",
+      "number": "xii",
+      "usedHeight": 210.0,
+      "freeHeight": 487.89
+    },
+    {
+      "id": "abbreviations",
+      "number": "xiii",
+      "usedHeight": 679.0,
+      "freeHeight": 18.89
+    },
+    {
+      "id": "c1-overview",
+      "number": 1,
+      "usedHeight": 594.5,
+      "freeHeight": 103.39
+    },
+    {
+      "id": "c1-profile",
+      "number": 2,
+      "usedHeight": 612.0,
+      "freeHeight": 85.89
+    },
+    {
+      "id": "c1-problem",
+      "number": 3,
+      "usedHeight": 653.5,
+      "freeHeight": 44.39
+    },
+    {
+      "id": "c1-objectives",
+      "number": 4,
+      "usedHeight": 619.0,
+      "freeHeight": 78.89
+    },
+    {
+      "id": "c1-scope",
+      "number": 5,
+      "usedHeight": 647.0,
+      "freeHeight": 50.89
+    },
+    {
+      "id": "c1-motivation",
+      "number": 6,
+      "usedHeight": 546.5,
+      "freeHeight": 151.39
+    },
+    {
+      "id": "c1-assumptions",
+      "number": 7,
+      "usedHeight": 662.5,
+      "freeHeight": 35.39
+    },
+    {
+      "id": "c1-organization",
+      "number": 8,
+      "usedHeight": 644.0,
+      "freeHeight": 53.89
+    },
+    {
+      "id": "c2-introduction",
+      "number": 9,
+      "usedHeight": 691.5,
+      "freeHeight": 6.39
+    },
+    {
+      "id": "c2-manual",
+      "number": 10,
+      "usedHeight": 627.0,
+      "freeHeight": 70.89
+    },
+    {
+      "id": "c2-components",
+      "number": 11,
+      "usedHeight": 566.0,
+      "freeHeight": 131.89
+    },
+    {
+      "id": "c2-types",
+      "number": 12,
+      "usedHeight": 624.5,
+      "freeHeight": 73.39
+    },
+    {
+      "id": "c2-storage",
+      "number": 13,
+      "usedHeight": 548.0,
+      "freeHeight": 149.89
+    },
+    {
+      "id": "c2-accessibility",
+      "number": 14,
+      "usedHeight": 557.0,
+      "freeHeight": 140.89
+    },
+    {
+      "id": "c2-testing",
+      "number": 15,
+      "usedHeight": 655.0,
+      "freeHeight": 42.89
+    },
+    {
+      "id": "c2-gaps",
+      "number": 16,
+      "usedHeight": 685.0,
+      "freeHeight": 12.89
+    },
+    {
+      "id": "c3-existing",
+      "number": 17,
+      "usedHeight": 619.5,
+      "freeHeight": 78.39
+    },
+    {
+      "id": "c3-limitations",
+      "number": 18,
+      "usedHeight": 672.5,
+      "freeHeight": 25.39
+    },
+    {
+      "id": "c3-proposed",
+      "number": 19,
+      "usedHeight": 597.0,
+      "freeHeight": 100.89
+    },
+    {
+      "id": "c3-fr-operations",
+      "number": 20,
+      "usedHeight": 661.5,
+      "freeHeight": 36.39
+    },
+    {
+      "id": "c3-fr-planning",
+      "number": 21,
+      "usedHeight": 672.5,
+      "freeHeight": 25.39
+    },
+    {
+      "id": "c3-nfr",
+      "number": 22,
+      "usedHeight": 690.0,
+      "freeHeight": 7.89
+    },
+    {
+      "id": "c3-technical",
+      "number": 23,
+      "usedHeight": 666.5,
+      "freeHeight": 31.39
+    },
+    {
+      "id": "c3-economic",
+      "number": 24,
+      "usedHeight": 686.0,
+      "freeHeight": 11.89
+    },
+    {
+      "id": "c3-validation",
+      "number": 25,
+      "usedHeight": 679.0,
+      "freeHeight": 18.89
+    },
+    {
+      "id": "c3-risk-trace",
+      "number": 26,
+      "usedHeight": 685.5,
+      "freeHeight": 12.39
+    },
+    {
+      "id": "c4-principles",
+      "number": 27,
+      "usedHeight": 687.5,
+      "freeHeight": 10.39
+    },
+    {
+      "id": "c4-architecture",
+      "number": 28,
+      "usedHeight": 694.89,
+      "freeHeight": 3.0
+    },
+    {
+      "id": "c4-dfd0",
+      "number": 29,
+      "usedHeight": 666.85,
+      "freeHeight": 31.04
+    },
+    {
+      "id": "c4-dfd1",
+      "number": 30,
+      "usedHeight": 694.89,
+      "freeHeight": 3.0
+    },
+    {
+      "id": "c4-dfd2",
+      "number": 31,
+      "usedHeight": 664.0,
+      "freeHeight": 33.89
+    },
+    {
+      "id": "c4-usecase-diagram",
+      "number": 32,
+      "usedHeight": 694.89,
+      "freeHeight": 3.0
+    },
+    {
+      "id": "c4-uc-arrival",
+      "number": 33,
+      "usedHeight": 585.0,
+      "freeHeight": 112.89
+    },
+    {
+      "id": "c4-uc-departure",
+      "number": 34,
+      "usedHeight": 623.5,
+      "freeHeight": 74.39
+    },
+    {
+      "id": "c4-uc-capacity",
+      "number": 35,
+      "usedHeight": 664.0,
+      "freeHeight": 33.89
+    },
+    {
+      "id": "c4-class",
+      "number": 36,
+      "usedHeight": 671.5,
+      "freeHeight": 26.39
+    },
+    {
+      "id": "c4-sequence",
+      "number": 37,
+      "usedHeight": 696.22,
+      "freeHeight": 1.67
+    },
+    {
+      "id": "c4-state",
+      "number": 38,
+      "usedHeight": 671.06,
+      "freeHeight": 26.83
+    },
+    {
+      "id": "c4-er",
+      "number": 39,
+      "usedHeight": 694.89,
+      "freeHeight": 3.0
+    },
+    {
+      "id": "c4-dict-location",
+      "number": 40,
+      "usedHeight": 697.5,
+      "freeHeight": 0.39
+    },
+    {
+      "id": "c4-dict-bay",
+      "number": 41,
+      "usedHeight": 663.0,
+      "freeHeight": 34.89
+    },
+    {
+      "id": "c4-dict-session",
+      "number": 42,
+      "usedHeight": 668.0,
+      "freeHeight": 29.89
+    },
+    {
+      "id": "c4-storage",
+      "number": 43,
+      "usedHeight": 645.26,
+      "freeHeight": 52.63
+    },
+    {
+      "id": "c4-input-output",
+      "number": 44,
+      "usedHeight": 610.0,
+      "freeHeight": 87.89
+    },
+    {
+      "id": "c4-ui",
+      "number": 45,
+      "usedHeight": 654.5,
+      "freeHeight": 43.39
+    },
+    {
+      "id": "c4-accessibility",
+      "number": 46,
+      "usedHeight": 656.0,
+      "freeHeight": 41.89
+    },
+    {
+      "id": "c5-software",
+      "number": 47,
+      "usedHeight": 660.5,
+      "freeHeight": 37.39
+    },
+    {
+      "id": "c5-hardware",
+      "number": 48,
+      "usedHeight": 655.0,
+      "freeHeight": 42.89
+    },
+    {
+      "id": "c5-typescript",
+      "number": 49,
+      "usedHeight": 634.5,
+      "freeHeight": 63.39
+    },
+    {
+      "id": "c5-react",
+      "number": 50,
+      "usedHeight": 571.5,
+      "freeHeight": 126.39
+    },
+    {
+      "id": "c5-next",
+      "number": 51,
+      "usedHeight": 605.0,
+      "freeHeight": 92.89
+    },
+    {
+      "id": "c5-styling",
+      "number": 52,
+      "usedHeight": 618.5,
+      "freeHeight": 79.39
+    },
+    {
+      "id": "c5-testing-tools",
+      "number": 53,
+      "usedHeight": 616.0,
+      "freeHeight": 81.89
+    },
+    {
+      "id": "c5-workflow",
+      "number": 54,
+      "usedHeight": 567.9,
+      "freeHeight": 129.99
+    },
+    {
+      "id": "c6-inventory",
+      "number": 55,
+      "usedHeight": 678.5,
+      "freeHeight": 19.39
+    },
+    {
+      "id": "c6-initialization",
+      "number": 56,
+      "usedHeight": 580.5,
+      "freeHeight": 117.39
+    },
+    {
+      "id": "c6-seeds",
+      "number": 57,
+      "usedHeight": 593.5,
+      "freeHeight": 104.39
+    },
+    {
+      "id": "c6-counts-plates",
+      "number": 58,
+      "usedHeight": 505.5,
+      "freeHeight": 192.39
+    },
+    {
+      "id": "c6-checkin",
+      "number": 59,
+      "usedHeight": 552.7,
+      "freeHeight": 145.19
+    },
+    {
+      "id": "c6-checkout",
+      "number": 60,
+      "usedHeight": 546.5,
+      "freeHeight": 151.39
+    },
+    {
+      "id": "c6-capacity",
+      "number": 61,
+      "usedHeight": 545.1,
+      "freeHeight": 152.79
+    },
+    {
+      "id": "c6-persistence",
+      "number": 62,
+      "usedHeight": 557.5,
+      "freeHeight": 140.39
+    },
+    {
+      "id": "c6-interaction",
+      "number": 63,
+      "usedHeight": 580.5,
+      "freeHeight": 117.39
+    },
+    {
+      "id": "c6-screen-overview",
+      "number": 64,
+      "usedHeight": 630.23,
+      "freeHeight": 67.66
+    },
+    {
+      "id": "c6-screen-filter",
+      "number": 65,
+      "usedHeight": 608.8,
+      "freeHeight": 89.09
+    },
+    {
+      "id": "c6-screen-arrival",
+      "number": 66,
+      "usedHeight": 694.89,
+      "freeHeight": 3.0
+    },
+    {
+      "id": "c6-screen-departure",
+      "number": 67,
+      "usedHeight": 624.5,
+      "freeHeight": 73.39
+    },
+    {
+      "id": "c6-screen-capacity",
+      "number": 68,
+      "usedHeight": 694.89,
+      "freeHeight": 3.0
+    },
+    {
+      "id": "c6-screen-location",
+      "number": 69,
+      "usedHeight": 694.89,
+      "freeHeight": 3.0
+    },
+    {
+      "id": "c6-screen-validation",
+      "number": 70,
+      "usedHeight": 694.89,
+      "freeHeight": 3.0
+    },
+    {
+      "id": "c6-screen-mobile",
+      "number": 71,
+      "usedHeight": 690.0,
+      "freeHeight": 7.89
+    },
+    {
+      "id": "c6-output-reconciliation",
+      "number": 72,
+      "usedHeight": 551.0,
+      "freeHeight": 146.89
+    },
+    {
+      "id": "c7-strategy",
+      "number": 73,
+      "usedHeight": 680.5,
+      "freeHeight": 17.39
+    },
+    {
+      "id": "c7-unit",
+      "number": 74,
+      "usedHeight": 668.0,
+      "freeHeight": 29.89
+    },
+    {
+      "id": "c7-e2e",
+      "number": 75,
+      "usedHeight": 622.5,
+      "freeHeight": 75.39
+    },
+    {
+      "id": "c7-supplemental",
+      "number": 76,
+      "usedHeight": 645.0,
+      "freeHeight": 52.89
+    },
+    {
+      "id": "c7-boundaries",
+      "number": 77,
+      "usedHeight": 670.0,
+      "freeHeight": 27.89
+    },
+    {
+      "id": "c7-static",
+      "number": 78,
+      "usedHeight": 558.9,
+      "freeHeight": 138.99
+    },
+    {
+      "id": "c7-security",
+      "number": 79,
+      "usedHeight": 678.0,
+      "freeHeight": 19.89
+    },
+    {
+      "id": "c7-accessibility",
+      "number": 80,
+      "usedHeight": 630.5,
+      "freeHeight": 67.39
+    },
+    {
+      "id": "c7-performance",
+      "number": 81,
+      "usedHeight": 681.0,
+      "freeHeight": 16.89
+    },
+    {
+      "id": "c7-findings",
+      "number": 82,
+      "usedHeight": 576.0,
+      "freeHeight": 121.89
+    },
+    {
+      "id": "c8-conclusion",
+      "number": 83,
+      "usedHeight": 583.5,
+      "freeHeight": 114.39
+    },
+    {
+      "id": "c8-achievements",
+      "number": 84,
+      "usedHeight": 658.0,
+      "freeHeight": 39.89
+    },
+    {
+      "id": "c8-limitations",
+      "number": 85,
+      "usedHeight": 596.5,
+      "freeHeight": 101.39
+    },
+    {
+      "id": "c8-roadmap",
+      "number": 86,
+      "usedHeight": 657.0,
+      "freeHeight": 40.89
+    },
+    {
+      "id": "c8-contribution",
+      "number": 87,
+      "usedHeight": 616.5,
+      "freeHeight": 81.39
+    },
+    {
+      "id": "references-local",
+      "number": 88,
+      "usedHeight": 633.0,
+      "freeHeight": 64.89
+    },
+    {
+      "id": "references-external",
+      "number": 89,
+      "usedHeight": 648.5,
+      "freeHeight": 49.39
+    },
+    {
+      "id": "app-a-types",
+      "number": 90,
+      "usedHeight": 673.1,
+      "freeHeight": 24.79
+    },
+    {
+      "id": "app-a-counts",
+      "number": 91,
+      "usedHeight": 460.7,
+      "freeHeight": 237.19
+    },
+    {
+      "id": "app-a-checkin",
+      "number": 92,
+      "usedHeight": 511.3,
+      "freeHeight": 186.59
+    },
+    {
+      "id": "app-a-resize",
+      "number": 93,
+      "usedHeight": 607.7,
+      "freeHeight": 90.19
+    },
+    {
+      "id": "app-a-checkout-test",
+      "number": 94,
+      "usedHeight": 423.1,
+      "freeHeight": 274.79
+    },
+    {
+      "id": "app-b-install",
+      "number": 95,
+      "usedHeight": 654.4,
+      "freeHeight": 43.49
+    },
+    {
+      "id": "app-b-sessions",
+      "number": 96,
+      "usedHeight": 697.5,
+      "freeHeight": 0.39
+    },
+    {
+      "id": "app-b-planning",
+      "number": 97,
+      "usedHeight": 663.5,
+      "freeHeight": 34.39
+    },
+    {
+      "id": "app-b-proposal",
+      "number": 98,
+      "usedHeight": 694.0,
+      "freeHeight": 3.89
+    }
+  ],
+  "pdfConsecutiveMainFootersVerified": true,
+  "pdfInternalLinksVerified": true,
+  "docxExplicitPageStarts": 111,
+  "docxPackageXmlValidated": true,
+  "docxEmbeddedFontsValidated": 5,
+  "docxCoverOnlyBorderVerified": true,
+  "docxSectionNumberingVerified": true
+}

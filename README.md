@@ -17,6 +17,16 @@ A web-based garage operations dashboard starter built with Next.js, TypeScript, 
 
 Location capacity, new locations, and session changes are saved in this browser's local storage. This is device-local demo persistence, not a shared database. There is no authentication, payment processing, reservation workflow, sensor connection, or live occupancy feed. This is a functional UI/domain-logic MVP, not a production parking system.
 
+## College project report
+
+A codebase-grounded, **111-page** college project report follows the reference in `Example Docs/`:
+
+- [Project report (PDF)](docs/project-report/Parkline_BCA_Project_Report.pdf)
+- [Editable project report (Word)](docs/project-report/Parkline_BCA_Project_Report.docx)
+- [Submission details, evidence, and regeneration guide](docs/project-report/README.md)
+
+Student and guide details are editable placeholders. The report distinguishes the browser-local MVP from proposed production features and records both passing checks and open browser-test findings.
+
 ## Run locally
 
 Requires Node.js 20.9 or newer and npm.

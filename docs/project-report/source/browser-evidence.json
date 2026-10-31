@@ -1,0 +1,103 @@
+{
+  "recordedAt": "2026-10-31T09:57:47.185Z",
+  "sourceCommit": "aa4b73016f271a7e0778c6c8bbd6c17346f52346",
+  "browser": "Chromium 153.0.8010.0",
+  "mode": "Local production build, single isolated Chromium context; supplemental checks, not a cross-browser audit",
+  "desktopViewport": "1440 x 1000 CSS pixels; screenshots at 1.5 device scale",
+  "mobileViewport": "390 x 844 CSS pixels",
+  "mobileGeometry": {
+    "viewport": 390,
+    "documentWidth": 457,
+    "overflowingElements": [
+      {
+        "element": "BUTTON",
+        "className": "button button-primary",
+        "right": 457
+      }
+    ]
+  },
+  "results": [
+    {
+      "id": "B01",
+      "name": "Riverside seed inventory is 72 total, 34 occupied, 32 available and 6 reserved",
+      "status": "passed"
+    },
+    {
+      "id": "B02",
+      "name": "Floor selection and reserved-state filtering agree",
+      "status": "passed"
+    },
+    {
+      "id": "B03",
+      "name": "Reserved bay click reports reservation rather than starting a session",
+      "status": "passed"
+    },
+    {
+      "id": "B04",
+      "name": "Unknown bay search displays an explicit empty result",
+      "status": "passed"
+    },
+    {
+      "id": "B05",
+      "name": "Arrival normalizes the plate, occupies B1-01 and preserves the capacity sum",
+      "status": "passed"
+    },
+    {
+      "id": "B06",
+      "name": "Arrival state persists across a same-browser page reload",
+      "status": "passed"
+    },
+    {
+      "id": "B07",
+      "name": "A duplicate normalized registration is rejected without closing the arrival dialog",
+      "status": "passed"
+    },
+    {
+      "id": "B08",
+      "name": "Checkout releases the selected bay and restores counts",
+      "status": "passed"
+    },
+    {
+      "id": "B09",
+      "name": "Capacity expansion changes total but preserves occupied and reserved counts",
+      "status": "passed"
+    },
+    {
+      "id": "B10",
+      "name": "Capacity input advertises the protected occupied-plus-reserved minimum",
+      "status": "passed"
+    },
+    {
+      "id": "B11",
+      "name": "Adding Harbour Point creates independent empty inventory and persists its plan",
+      "status": "passed"
+    },
+    {
+      "id": "B12",
+      "name": "Location switching restores independent Riverside inventory and resets the floor",
+      "status": "passed"
+    },
+    {
+      "id": "B13",
+      "name": "Invalid Tamil Nadu registration format displays the domain error",
+      "status": "passed"
+    },
+    {
+      "id": "B14",
+      "name": "Case-insensitive duplicate location names are rejected",
+      "status": "passed"
+    },
+    {
+      "id": "B15",
+      "name": "Mobile layout has no document-level horizontal overflow at 390 pixels",
+      "status": "failed",
+      "detail": "expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false"
+    },
+    {
+      "id": "B16",
+      "name": "The exercised browser workflows raise no uncaught page errors",
+      "status": "passed"
+    }
+  ],
+  "uncaughtErrors": []
+}
