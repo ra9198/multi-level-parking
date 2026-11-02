@@ -27,6 +27,13 @@ A codebase-grounded, **111-page** college project report follows the reference i
 
 Student and guide details are editable placeholders. The report distinguishes the browser-local MVP from proposed production features and records both passing checks and open browser-test findings.
 
+## Project review presentation
+
+An editable **30-slide** PowerPoint deck summarizes the project for review: context, requirements, architecture, implementation, real UI captures, verification, open findings, roadmap and Q&A. It includes speaker notes and preserves the MVP's scope boundaries.
+
+- [Project review deck (PPTX)](docs/project-review/Parkline_Project_Review.pptx)
+- [Slide map, sources and regeneration guide](docs/project-review/README.md)
+
 ## Run locally
 
 Requires Node.js 20.9 or newer and npm.
