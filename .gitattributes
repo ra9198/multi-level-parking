@@ -2,6 +2,7 @@
 *.pdf binary
 *.docx binary
 *.pptx binary
+*.ppt binary
 *.ttf binary
 
 # Keep third-party font licence notices in their original formatting.
