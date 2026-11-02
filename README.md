@@ -29,9 +29,10 @@ Student and guide details are editable placeholders. The report distinguishes th
 
 ## Project review presentation
 
-An editable **30-slide** PowerPoint deck summarizes the project for review: context, requirements, architecture, implementation, real UI captures, verification, open findings, roadmap and Q&A. It includes speaker notes and preserves the MVP's scope boundaries.
+An editable **30-slide** PowerPoint deck summarizes the project for review: context, requirements, architecture, implementation, real UI captures, verification, open findings, roadmap and Q&A. It includes speaker notes and preserves the MVP's scope boundaries. A **condensed 20-slide** edition is also provided in legacy binary PowerPoint format.
 
 - [Project review deck (PPTX)](docs/project-review/Parkline_Project_Review.pptx)
+- [Condensed project review — Parkline PPT (PPT)](docs/project-review/Parkline%20PPT.ppt)
 - [Slide map, sources and regeneration guide](docs/project-review/README.md)
 
 ## Run locally
